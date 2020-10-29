@@ -1,0 +1,4 @@
+#Wed Oct 28 19:18:05 MDT 2020
+base.0=D\:\\repos\\lab8-tdu\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
