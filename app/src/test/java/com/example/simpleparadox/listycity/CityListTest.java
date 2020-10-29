@@ -30,7 +30,10 @@ class CityListTest {
     }
 
     @Test
-    void failTest() {
-        assertTrue(false);
+    void testCityNameChange() {
+        CityList cityList = mockCityList();
+        City cityToChange = cityList.getCities().get(0);
+        cityToChange.changeCityName("Calgary");
+        assertEquals("Calgary", cityToChange.getCityName());
     }
 }
